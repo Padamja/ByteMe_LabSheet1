@@ -5,13 +5,10 @@
  
 int nextState(char *pattern, int M, int state, int x)
 {
-  // If the character c is same as next character in pattern,
-  // then simply increment state
   
- 
   // Start from the largest possible value and stop when you find
   // a prefix which is also suffix
- 
+  // Code for this function is yet to be written.
  
   return 0;
 }
@@ -36,16 +33,8 @@ void search(char *pattern, char *txt)
  
   computeTF(pattern, M, TF);
  
-  // Process txt over Finite Automata.
-  int i, state=0;
-  for (i = 0; i < N; i++)
-  {
-  state = TF[state][txt[i]];
-  if (state == M)
-  {
-  printf ("\n Pattern found at index %d", i-M+1);
-  }
-  }
+  // Code to process the string over Finite Automata yet to be written .
+  
 }
  
 
