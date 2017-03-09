@@ -3,11 +3,9 @@ The commits consists solutions to the following questions:
 
 
 
-1. Implement string matching using Finite Automata as given in Cormen book pg. no.
-995. In the first step, you need to take pattern as an input, construct transition table
+1. Implement string matching using Finite Automata as given in Cormen book pg. no.995. In the first step, you need to take pattern as an input, construct transition table
 using the algorithm. In second step, take a string as an input from user and see
-whether the pattern exists or not using the transition table created in first step.
-
+whether the pattern exists or not using the transition table created in first step
 
 
 2. Implement Thompson NFA algorithm (https://swtch.com/~rsc/regexp/regexp1.html
